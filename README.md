@@ -6,7 +6,7 @@
 
  <a href ="https://github.com/adriennecmetz/PacManFactory"><h1> PacMen Factory </h1></a>
 
- <img src = "./PacMan.png"  width="200" >
+ <a href = https://github.com/adriennecmetz/PacManFactory" img src = "./PacMan.png"  width="200" >
  
  <div> 
 
