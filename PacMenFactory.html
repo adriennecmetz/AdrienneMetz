@@ -1,6 +1,19 @@
 <html>
 <SCRIPT>
+    var pos = 0;
+    const pacArray = [
+        ['PacMan1.png', 'PacMan2.png'],
+        ['PacMan3.png', 'PacMan4.png']
+    ];
+    var direction = 0;
+    const pacMen = [];
 
+    function setToRandom(scale) {
+        return {
+            x: Math.random() * scale,
+            y: Math.random() * scale
+        }
+    }
     // Factory to make a PacMan 
     function makePac() {
         // returns an object with values scaled {x: 33, y: 21}
@@ -57,6 +70,3 @@
 </body>
 
 </html>
-            
-
-
